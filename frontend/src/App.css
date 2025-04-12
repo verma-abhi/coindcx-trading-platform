@@ -1,0 +1,21 @@
+/* Ensure that the app stretches to full height */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full height */
+}
+
+
+.main-content {
+  flex: 1; 
+}
+/* App.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure full height for the page */
+}
+
+#root {
+  height: 100%;
+}
